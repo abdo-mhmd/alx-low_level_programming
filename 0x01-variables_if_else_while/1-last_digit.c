@@ -3,8 +3,8 @@
 #include <time.h>
 /**
  * main - main block
- * Description:last digit of the number stored in the variable n
- * Return 0
+ * Description: last digit of the number stored in the variable n
+ * Return: 0
  */
 int main(void)
 {
