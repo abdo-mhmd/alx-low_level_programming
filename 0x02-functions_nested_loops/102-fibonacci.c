@@ -10,16 +10,16 @@ int main(void)
 	int i;
 	unsigned long last = 1, now = 2, next;
 
-	printf("%llu, %llu, ", last, now);
+	printf("%ll, %ll, ", last, now);
 	for (i = 3; i <= max; i++)
 	{
 		next = last + now;
 		last = now;
 		now = next;
 		if (i == max)
-			printf(" %llu", now);
+			printf(" %ll", now);
 		else
-			printf(" %llu,", now);
+			printf(" %ll,", now);
 	}
 	return (0);
 }
