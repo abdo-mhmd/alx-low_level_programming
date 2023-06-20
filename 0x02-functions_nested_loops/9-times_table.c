@@ -12,7 +12,7 @@ void times_table(void)
 
 	for (num = 0; num < 10; num++)
 	{
-		while (pls < 10)
+		for (pls = 0; pls < 10; pls++)
 		{
 			equal = num * pls;
 			if (pls != 0)
@@ -22,7 +22,6 @@ void times_table(void)
 			printf("%d", equal);
 			if (pls != 9)
 				printf(",");
-			pls++;
 		}
 		printf("\n");
 	}
