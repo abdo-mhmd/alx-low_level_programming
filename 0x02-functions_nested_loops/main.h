@@ -1,4 +1,4 @@
-#ifndef main.h
-#define main.h
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
 extreme int _putchar(char);
 #endif
