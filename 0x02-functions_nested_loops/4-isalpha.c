@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - checks for alphabetic character
+ * @c: git intager
  * Return: 0 or 1
  */
 int _isalpha(int c)
