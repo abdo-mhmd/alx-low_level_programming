@@ -15,10 +15,10 @@ void times_table(void)
 		for (pls = 0; pls < 10; pls++)
 		{
 			equal = num * pls;
-			if (pls != 0)
-			{
+			if (pls != 0 && equal < 10)
 				printf("  ");
-			}
+			else if (pls != 0 && equal >= 10)
+				printf(" ");
 			printf("%d", equal);
 			if (pls != 9)
 				printf(",");
