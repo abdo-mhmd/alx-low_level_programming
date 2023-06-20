@@ -10,7 +10,7 @@ int main(void)
 	int i;
 	unsigned long last = 1, now = 2, next;
 
-	printf("%lu, %lu, ", last, now);
+	printf("%lu, %lu,", last, now);
 	for (i = 3; i <= max; i++)
 	{
 		next = last + now;
