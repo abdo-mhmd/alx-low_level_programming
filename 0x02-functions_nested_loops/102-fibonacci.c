@@ -7,18 +7,19 @@
 int main(void)
 {
 	int max = 50;
-	int i, last = 1, now = 2, next;
+	int i;
+	long long last = 1, now = 2, next;
 
-	printf("%d, %d", last, now);
+	printf("%llu, %llu, ", last, now);
 	for (i = 3; i <= max; i++)
 	{
 		next = last + now;
 		last = now;
 		now = next;
 		if (i == max)
-			printf("%d", now);
+			printf(" %llu", now);
 		else
-			printf("%d ,", now);
+			printf(" %llu,", now);
 	}
 	return (0);
 }
