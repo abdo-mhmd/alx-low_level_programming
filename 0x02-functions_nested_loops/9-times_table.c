@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * times_table - print times tables from 1 to 9
  * Return: void
@@ -9,22 +10,20 @@ void times_table(void)
 	int pls = 0;
 	int equal = 0;
 
-	while (num < 10)
+	for (num = 0; num < 10; num++)
 	{
 		while (pls < 10)
 		{
 			equal = num * pls;
 			if (pls != 0)
 			{
-				_putchar(' ');
-				_putchar(' ');
+				printf("  ");
 			}
-			_putchar(equal + '0');
+			printf("%d", equal);
 			if (pls != 9)
-				_putchar(',');
+				printf(",");
 			pls++;
 		}
-		_putchar('\n');
-		num++;
+		printf("\n");
 	}
 }
