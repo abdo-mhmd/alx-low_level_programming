@@ -10,7 +10,7 @@ int main(void)
 	char chr[] = "_putchar";
 	
 	n = sizeof(chr);
-	for (i = 0; i < n; i++)
+	for (i = 0; i < n - 1; i++)
 	{
 		_putchar(chr[i]);
 	}
