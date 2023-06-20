@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - print is lower point
+ * @c: get intager
  * Return: 0 or 1
  */
 int _islower(int c)
