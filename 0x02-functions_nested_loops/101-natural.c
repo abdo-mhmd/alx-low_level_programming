@@ -12,28 +12,9 @@ int main(void)
 
 	for (i = 1; i < max; i++)
 	{
-		equal = i * 3;
-		if (equal < max)
-		{
-			sum += equal;
-		}
-		else
-		{
-			break;
-		}
+		if (i % 3 == 0 || i % 5 == 0)
+			sum += i;
 	}
-	for (i = 1; i < max; i++)
-	{
-		equal = i * 5;
-		if (equal < max)
-		{
-			sum += equal;
-		}
-		else
-		{
-			break;
-		}
-	}
-	printf("%d", sum);
+	printf("%d\n", sum);
 	return (0);
 }
