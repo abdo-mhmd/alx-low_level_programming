@@ -19,7 +19,8 @@ int main(void)
 		if (i == max)
 			printf(" %lu", now);
 		else
-			printf(" %lu,\n", now);
+			printf(" %lu,", now);
 	}
+	printf("\n");
 	return (0);
 }
