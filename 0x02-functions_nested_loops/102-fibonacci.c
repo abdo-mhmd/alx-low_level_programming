@@ -8,7 +8,7 @@ int main(void)
 {
 	int max = 50;
 	int i;
-	long long last = 1, now = 2, next;
+	unsigned long long last = 1, now = 2, next;
 
 	printf("%llu, %llu, ", last, now);
 	for (i = 3; i <= max; i++)
