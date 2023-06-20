@@ -8,7 +8,7 @@ int main(void)
 {
 	int max = 1024;
 	int sum = 0;
-	int i, equal;
+	int i;
 
 	for (i = 1; i < max; i++)
 	{
