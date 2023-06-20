@@ -8,7 +8,7 @@ int main(void)
 {
 	int i, n;
 	char chr[] = "_putchar";
-	
+
 	n = sizeof(chr);
 	for (i = 0; i < n - 1; i++)
 	{
